@@ -10,11 +10,11 @@ public class Main {
         double F;
         double C;
 
-        System.out.println("digite valor de graus em fahrenheit");
+        System.out.println("digite valor em °F");
         F = entrada.nextInt();
 
         C = (F - x) * y;
 
-        System.out.println("o valor de " + F + " em fahrenheit é igual a " + C + " em celcius");
+        System.out.printf("o valor de " + F + " em °F é igual a " + C + " em °C");
     }
 }
